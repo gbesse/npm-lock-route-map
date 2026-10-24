@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Montrer quelle version résolue chaque dépendance npm atteint réellement', 'en': 'Show which resolved version each npm dependency actually reaches', 'es': 'Mostrar qué versión resuelta alcanza realmente cada dependencia npm'}

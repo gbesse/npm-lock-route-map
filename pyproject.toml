@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "npm-lock-route-map"
+version = "0.1.0a1"
+description = "FR: Montrer quelle version résolue chaque dépendance npm atteint réellement | EN: Show which resolved version each npm dependency actually reaches | ES: Mostrar qué versión resuelta alcanza realmente cada dependencia npm"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+npm-lock-route-map = "npm_lock_route_map.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["npm_lock_route_map*"]
